@@ -76,9 +76,9 @@ python sorted_array_manager_gui.py
 ```
 ## 📸 Screenshot (for GUI)
 
-![GUI Screenshot](images/GUI.png)
+![GUI Screenshot](Images/GUI.png)
 
-![CLI Screenshot](images/CLI.png)
+![CLI Screenshot](Images/CLI.png)
 
 ## 📚 Technologies Used
 - C++ (CLI)
