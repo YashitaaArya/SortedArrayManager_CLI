@@ -1,16 +1,29 @@
-# Sorted Array Manager (CLI Version)
+# Sorted Array Manager (CLI + GUI Version)
 
-This is a Command-Line Interface (CLI) based project written in C++ that implements core operations on a sorted array using Binary Search. It allows users to search, insert, and delete elements while ensuring the array remains sorted at all times.
+This is a Command-Line Interface (CLI) based project written in C++ that implements core operations on a sorted array using Binary Search. It allows users to search, insert, and delete elements while ensuring the array remains sorted at all times. Additional details : GUI using Python's Tkinter is also added.
 The program is modularized using separate header files for each operation (binary search, insertion, deletion, and utility display), demonstrating good software design principles.
-
+This project includes:
+- ✅ Command-Line Interface (CLI) Version using C++
+- 🎨 Graphical User Interface (GUI) Version using Python's Tkinter
 ---
 
-## Features
+## 📌 Features
 
-- Search for an element using Binary Search.
-- Delete an element while maintaining the sorted order.
-- Insert a new element into the array keeping it sorted.
-- Interactive user prompts for easy operation (CLI-based interaction).
+### 🖥️ CLI Version (C++)
+- Binary Search to locate elements
+- Delete element if found (maintains sorted order)
+- Insert element if not found (inserts at correct sorted position)
+- User-driven input and loop to perform multiple operations
+
+### 🎛️ GUI Version (Python + Tkinter)
+- Clean and modern graphical interface
+- Space-separated array input
+- Buttons for:
+  - 🔍 Search
+  - ➕ Insert
+  - ➖ Delete
+- Automatically keeps the array sorted
+- Real-time array display with color-coded feedback
 
 ## How to Run
 
@@ -55,9 +68,28 @@ Successfully deleted!
 Continue the search? (yes/no)
 no
 ```
+
+## 🖼️ GUI (Python Tkinter)
+Make sure Python is installed (version 3.6+ recommended).
+```bash
+python sorted_array_manager_gui.py
+```
+## 📸 Screenshot (for GUI)
+
+![GUI Screenshot](images/GUI.png)
+
+![CLI Screenshot](images/CLI.png)
+
+## 📚 Technologies Used
+- C++ (CLI)
+- Python 3.x (GUI)
+- Tkinter for graphical interface
+- Git & GitHub for version control
+
 ## Requirements
   C++ compiler (g++, clang++, or Visual Studio)
   Basic command-line environment
+  Python's Tkinter
 
 ## License
   This project is licensed under the MIT License.
@@ -66,4 +98,3 @@ no
 
 ## Author
  Yashitaa Arya
-
