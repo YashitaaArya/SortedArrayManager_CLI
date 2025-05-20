@@ -87,9 +87,9 @@ python sorted_array_manager_gui.py
 - Git & GitHub for version control
 
 ## Requirements
-  C++ compiler (g++, clang++, or Visual Studio)
-  Basic command-line environment
-  Python's Tkinter
+- C++ compiler (g++, clang++, or Visual Studio)
+- Basic command-line environment
+- Python's Tkinter
 
 ## License
   This project is licensed under the MIT License.
